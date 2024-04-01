@@ -1,0 +1,89 @@
+body {
+  background: black;
+}
+
+#main {
+  width: 90%;
+  text-align: center;
+  font-family: "Frank Ruhl Libre", "sans serif";
+  margin: 90px auto;
+  line-height: 1.5;
+  padding: 20px;
+  border: solid 8px;
+  border-style: double;
+  background-color: white;
+}
+
+#title {
+  text-align: center;
+  padding: 5px;
+  margin: 30px auto;
+  font-size: 4em;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+
+@media only screen and (max-width: 550px) {
+  #title {
+    font-size: 2em;
+  }
+}
+
+#intro {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 550px) {
+  #intro {
+    font-size: 1em;
+  }
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid 4px;
+  border-style: double;
+}
+
+h2 {
+  font-style: italic;
+}
+
+#tribute-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.tribute-text {
+  font-weight: 300;
+  border-style: double;
+  margin: 10px;
+  padding: 5px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 610px) {
+  .tribute-text {
+    height: fit-content;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #4a4a4a; /* Cor de fundo do footer */
+  text-align: center; /* Centralizar o texto */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  color: #000; /* Cor do texto (preto) */
+  padding: 10px 0; /* Espaçamento interno */
+  
+}

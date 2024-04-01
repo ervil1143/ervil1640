@@ -1,0 +1,106 @@
+body {
+    color: aliceblue;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(12, 0, 40));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+li a,
+.dropbtn {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+li a:hover {
+    background: #1f7d05;
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    display: block;
+    text-align: left;
+
+
+}
+
+.dropdown:hoover .dropdown-content {
+
+    display: block;
+}
+
+header img {
+    width: 600px;
+    height: 500px;
+    border: 3px solid rgb(0, 0, 140);
+}
+
+h1 {
+    color: rgb(0, 0, 186);
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(194, 74, 0);
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: rgb(235, 196, 0);
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.lateral {
+    padding: 5px 50px;
+}
+
+.descriçao {
+    border: 2px solid rgb(83, 0, 0);
+    overflow: auto;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+.descriçao img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #4a4a4a; /* Cor de fundo do footer */
+    text-align: center; /* Centralizar o texto */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    color: #000; /* Cor do texto (preto) */
+    padding: 10px 0; /* Espaçamento interno */
+}

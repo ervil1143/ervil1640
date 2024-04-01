@@ -1,0 +1,107 @@
+/* Estilos para o menu principal */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f90000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+
+}
+
+h1 {
+  color: #9b0000;
+  /* Cor do título */
+  font-size: 45px;
+  /* Tamanho do título */
+  margin-left: 20px;
+}
+
+
+
+header {
+  text-align: center; /* Centraliza o título principal */
+  margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #fff; /* Cor de fundo para o menu principal */
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  border: 1px solid transparent; /* Adiciona uma borda inicialmente transparente */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px; /* Tamanho da fonte aumentado */
+  font-weight: bold; /* Fonte em negrito */
+  text-align: center;
+}
+
+/* Mudar a cor de fundo dos menus ao passar o mouse */
+nav ul li:hover {
+  background-color: #ff4d00; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para os submenus */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul ul li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 20px; /* Tamanho da fonte aumentado */
+  font-weight: bold; /* Fonte em negrito */
+  color: #333; /* Cor do texto */
+  text-decoration: none; /* Remover a decoração do link */
+}
+
+/* Mudar a cor de fundo dos submenus ao passar o mouse */
+nav ul ul li:hover {
+  background-color: #6fff01; /* Cor de fundo ao passar o mouse */
+}
+
+/* Mostrar submenus ao passar o mouse sobre os itens do menu */
+nav ul li:hover > ul {
+  display: block;
+}
+
+/* Estilos para o footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #08a900; /* Cor de fundo do footer */
+  text-align: center; /* Centralizar o texto */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  color: #87cefa; /* Cor azul claro do texto */
+  padding: 10px 0; /* Espaçamento interno */
+}

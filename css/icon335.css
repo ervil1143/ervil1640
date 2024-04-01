@@ -1,0 +1,79 @@
+/* Seu código CSS existente aqui */
+
+body {
+    background: url('../img/links/pexels-pixabay-414830.jpg') center center fixed; /* Substitua pelo caminho real da sua imagem de fundo */
+    background-size: cover;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 2px 2px;
+    font-family: 'arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	font-size: 80px;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height:1;
+	text-align: center;
+	color:#a37000;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Adiciona esta linha para permitir a quebra para a próxima linha */
+    margin: 20px 0;
+}
+
+
+
+.zocial {
+    /* Estilos para ícones sociais individuais */
+    display: inline-block;
+    font-size: 50px;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #002145;
+    border: 1px solid #000; /* Adiciona uma borda preta de 1px ao redor dos links */
+}
+
+.zocial:hover,
+.zocial:visited {
+    color: #0068d6;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8e8ff;
+    width: 100%;
+    margin-top: auto;
+	font-size: 25px;
+	
+}
+
+/* Estilo adicional para tornar as imagens mais visíveis */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000; /* Adiciona uma borda preta de 1px ao redor das imagens */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra sutil às imagens */
+}

@@ -1,0 +1,71 @@
+body {
+    background: url('../img/links/pexels-markus-spiske-1089440.jpg') center center fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #004add;
+}
+
+.center {
+    text-align: center;
+}
+
+.site-section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: rgb(119, 0, 0);
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(213, 103, 0);
+    font-size: 40px;
+}
+
+.descrição1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.descrição1 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.descrição1 a {
+    text-decoration: none;
+    color: #cff800; /* Amarelo escuro */
+    border: 1px solid #003145;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.descrição1 a:hover {
+    background-color: #ebeb00;
+    color: #050089; /* Amarelo claro no hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007095; /* Azul claro */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 15px; /* Tamanho da fonte ajustável conforme necessário */
+    color: #000080; /* Azul escuro */
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000080; /* Azul escuro para os links no footer */
+}

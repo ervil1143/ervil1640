@@ -1,0 +1,67 @@
+/* Estilos para o conteúdo principal */
+#conteudo-html {
+  margin: 20px;
+  background-color: #5e5e5e; /* Fundo cinza */
+  color: #000; /* Texto preto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilos para a lista de itens */
+#conteudo-html ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilos para cada item da lista */
+#conteudo-html ul li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #585858;
+  padding-bottom: 20px;
+}
+
+/* Estilos para o título do item */
+#conteudo-html ul li h3 {
+  margin-top: 0;
+}
+
+/* Estilos para os links nos títulos */
+#conteudo-html ul li h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+#conteudo-html ul li h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a data de publicação */
+#conteudo-html ul li p {
+  color: #5b5b5b;
+  font-size: 0.9em;
+}
+
+/* Estilos para o rodapé */
+
+
+h1{
+  color: #000288;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Russo One', sans-serif;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #4a4a4a; /* Cor de fundo do footer */
+  text-align: center; /* Centralizar o texto */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  color: #a0a0a0; /* Cor do texto (preto) */
+  padding: 10px 0; /* Espaçamento interno */
+  
+}

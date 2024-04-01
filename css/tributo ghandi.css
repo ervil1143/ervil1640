@@ -1,0 +1,96 @@
+.container1{
+    width:90%;
+    height:80%;
+  }
+  .journey{
+    margin-left: 17%;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #656464;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-image: url('');
+    background-size: cover;
+    color: #09008c;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do Título */
+.page-title {
+    font-size: 36px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilo da Descrição */
+.page-description {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilo da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+tr:nth-child(even) {
+    background-color: #505050;
+}
+
+/* Estilo dos Links */
+a {
+    color: #001d3d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 30px;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #4a4a4a; /* Cor de fundo do footer */
+    text-align: center; /* Centralizar o texto */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    color: #000; /* Cor do texto (preto) */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+h4 {
+    color: #0b0062;
+    /* Cor do título */
+    font-size: 25px;
+    /* Tamanho do título */
+    margin-left: 20px;
+}
+
